@@ -39,6 +39,9 @@ def download_file(file_id, file_name, local_directory, drive_service, log_file):
         except Exception as e:
             log(log_file, f'Error downloading {local_path}: {e}')
             print(f'Error downloading {local_path}: {e}')
+        else:
+            log(log_file, f'Downloaded {local_path}')
+            print(f'Downloaded {local_path}')
     fh.close()
 
 def download_folder(folder_id, local_directory, drive_service, log_file):
