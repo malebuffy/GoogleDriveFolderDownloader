@@ -1,6 +1,6 @@
 # Google Drive Folder Downloader
 
-This Python script allows you to create an exact copy of a Google Drive folder on your local hard drive, complete with OAuth for secure access. It also generates a log text file to keep track of any files that haven't been downloaded. Additionally, it skips files that already exist in the destination folder, so you don't need to download everything again in case of errors.
+Sometimes downloading a large folder with many subfolders is not possible via the right click on Google Drive, especially if it is a folder shared with you. This Python script allows you to create an exact copy of a Google Drive folder on your local hard drive, complete with OAuth for secure access. It also generates a log text file to keep track of any files that haven't been downloaded. Additionally, it skips files that already exist in the destination folder, so you don't need to download everything again in case of errors.
 
 ## Requirements
 
