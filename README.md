@@ -46,6 +46,11 @@ Before executing the script, make the following edits:
 
 ## Execute
 
+Make sure you install the necessary packages:
+
+pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+
 To execute the script, open your console or command prompt, navigate to the folder containing the script, and run the following command:
 
 ```bash
